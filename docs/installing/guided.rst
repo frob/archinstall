@@ -30,6 +30,9 @@ To start the installer, run the following in the latest Arch Linux ISO:
 
     archinstall --script guided
     
+.. note::
+    The installer will not update the pacman keyring. To update the keyring run ``pacman -Sy archlinux-keyring`` prior to running ``archinstall``.
+    
 | The ``--script guided`` argument is optional as it's the default behavior.
 | But this will use our most guided installation and if you skip all the option steps it will install a minimal Arch Linux experience.
 
